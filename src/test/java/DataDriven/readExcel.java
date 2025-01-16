@@ -54,6 +54,7 @@ public void login(String uName, String pass){
 public void Execute(){
         for( int i=0;i<Username.size();i++){
             login(Username.get(i),Password.get(i));
+            //System.out.println(Username.get(i));
         }
 }
 
